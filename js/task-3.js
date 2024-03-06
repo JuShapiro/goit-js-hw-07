@@ -8,3 +8,4 @@ function onInput(event) {
     output.textContent = value === "" ? "Anonymous" : value;
     console.log(value);
 }
+

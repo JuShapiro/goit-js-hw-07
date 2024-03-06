@@ -17,9 +17,48 @@ ul{
   list-style-type: none;
 }
 
+.item{
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 133%;
+  letter-spacing: 0.04em;
+  color: #2e2f42; 
+}
+
 .gallery{
   list-style: none;
   display: flex;
   flex-wrap: wrap;
   gap: 15px;
+}
+
+input{
+  width: 300px;
+  height: 40px;
+  font-weight: 400;
+  font-size: 16px;
+  
+}
+
+h1{
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 133%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+button{
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 100px;
+  height: 40px;
+  background-color: #4e75ff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border: none;
+  margin-top: 15px;
 }

@@ -31,6 +31,8 @@ images.forEach(img =>{
     const image = document.createElement("img");
     image.src = img.url;
     image.alt = img.alt;
+    image.width = 360;
+    image.height = 300;
     item.appendChild(image);
 });
  
