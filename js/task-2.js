@@ -14,26 +14,26 @@ const images = [
 
 ];
 
-// const list = document.querySelector(".gallery")
+const list = document.querySelector(".gallery")
 
-// const markup = images.map(({ url, alt }) => `<li><img src="${url}" alt="${alt}" width="360" height="300" /></li>`).join("");
+const markup = images.map(({ url, alt }) => `<li><img src="${url}" alt="${alt}" width="360" height="300" /></li>`).join("");
 
-// list.insertAdjacentHTML("beforeend", markup)
+list.insertAdjacentHTML("beforeend", markup)
 
 
-const list = document.querySelector(".gallery");
-console.log(list);
+// const list = document.querySelector(".gallery");
+// console.log(list);
 
-images.forEach(img =>{
-    const item = document.createElement("li");
-    list.appendChild(item);
+// images.forEach(img =>{
+//     const item = document.createElement("li");
+//     list.appendChild(item);
 
-    const image = document.createElement("img");
-    image.src = img.url;
-    image.alt = img.alt;
-    image.width = 360;
-    image.height = 300;
-    item.appendChild(image);
-});
+//     const image = document.createElement("img");
+//     image.src = img.url;
+//     image.alt = img.alt;
+//     image.width = 360;
+//     image.height = 300;
+//     item.appendChild(image);
+// });
  
 
